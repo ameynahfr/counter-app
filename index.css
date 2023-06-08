@@ -1,0 +1,88 @@
+body {
+    background-image: url("cottoncandy.jpg");
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    color: white;
+}
+
+.container {
+    width: 50%;
+    max-width: 300px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    border: black solid;
+    background: linear-gradient(135deg, #ff9eda, #a879ff, #75daff, #ff8ae3, #ffb5d7);
+    background-size: 400% 400%;
+    animation: pastel-gradient 10s ease-in-out infinite;
+
+      
+      
+}
+
+@keyframes pastel-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Nunito', serif;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+p {
+    color: black;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#increment-btn {
+    background: rgb(209, 118, 150);
+    margin-bottom: 20px;
+}
+
+#save-btn {
+    background: rgb(35, 157, 187);
+    margin-bottom: 20px;
+}
+
+#save-el {
+    
+    
+    padding: 10px;
+
+}
+
+#reset-btn {
+    background: rgb(152, 89, 160);
+}
+
